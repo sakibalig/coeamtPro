@@ -1,18 +1,18 @@
 import React, { useState } from 'react';
 import { useForm, FormProvider } from 'react-hook-form';
 import axios from 'axios';
-import ProjectInformation from '../FormPages/ProjectInformation';
-import PICoPI from '../FormPages/PICoPI';
-import Department from '../FormPages/Department';
-import SponsorDetail from '../Formpages/SponsorDetail';
-import BudgetAllocation from '../Formpages/BudgetAllocation';
-import UploadDocument from '../Formpages/UploadDocument';
+import ProjectInformation from '/Users/sakibkhan/Desktop/projects/Backend/multi_pages_form/src/components/Formpages/ProjectInformation.jsx';
+import PICoPI from '/Users/sakibkhan/Desktop/projects/Backend/multi_pages_form/src/components/Formpages/PICoPI.jsx';
+import Department from '/Users/sakibkhan/Desktop/projects/Backend/multi_pages_form/src/components/Formpages/Department.jsx';
+import SponsorDetail from '/Users/sakibkhan/Desktop/projects/Backend/multi_pages_form/src/components/Formpages/SponsorDetail.jsx';
+import BudgetAllocation from '/Users/sakibkhan/Desktop/projects/Backend/multi_pages_form/src/components/Formpages/BudgetAllocation.jsx';
+import UploadDocument from '/Users/sakibkhan/Desktop/projects/Backend/multi_pages_form/src/components/Formpages/UploadDocument.jsx';
 import ProjectStaffForm from '../Formpages/ProjectStaffForm';
-import Review from '../Formpages/Review';
+import Review from '/Users/sakibkhan/Desktop/projects/Backend/multi_pages_form/src/components/Formpages/Review.jsx';
 import Sidebar from './SideBar/Sidebar';
 import './ProjectRegistration.css';
-import prev from '/Users/sakibkhan/Desktop/vs/web/temp/4/multi_pages_form/src/Assets/prev.png'
-import next from '/Users/sakibkhan/Desktop/vs/web/temp/4/multi_pages_form/src/Assets/next.png'
+import prev from '/Users/sakibkhan/Desktop/projects/Backend/multi_pages_form/src/Assets/prev.jpg'
+import next from '/Users/sakibkhan/Desktop/projects/Backend/multi_pages_form/src/Assets/next.png'
 
 const ProjectRegistration = () => {
   const pages = [
