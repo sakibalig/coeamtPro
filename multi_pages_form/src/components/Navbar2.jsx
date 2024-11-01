@@ -3,10 +3,12 @@ import "./Navbar2.css";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { useAuth } from "../hooks/user";
-import logoutimg from "/Users/sakibkhan/Desktop/vs/web/temp/4/multi_pages_form/src/Assets/logout.png";
-import plusicon from "/Users/sakibkhan/Desktop/vs/web/temp/4/multi_pages_form/src/Assets/plusicon.png";
-import projectm from "/Users/sakibkhan/Desktop/vs/web/temp/4/multi_pages_form/src/Assets/projectmonitoring longo.png";
-import add from "/Users/sakibkhan/Desktop/vs/web/temp/4/multi_pages_form/src/Assets/plusicon.png"
+import logoutimg from "../Assets/logout.png";
+import plusicon from "../Assets/plusicon.png";
+import projectm from "../Assets/projectmonitoring longo.png";
+import add from "../Assets/plusicon.png"
+
+
 const Navbar2 = () => {
   const navigate = useNavigate();
   const { logout, user } = useAuth();
