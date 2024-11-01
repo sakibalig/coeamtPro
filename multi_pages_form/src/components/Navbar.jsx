@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navbar.css';
-import iitkgpicon from '/Users/sakibkhan/Desktop/vs/web/temp/4/multi_pages_form/src/Assets/iitkgpicon.jpg';
-import mainlogo from  '/Users/sakibkhan/Desktop/vs/web/temp/4/multi_pages_form/src/Assets/mainlogo.png'
+import iitkgpicon from '../Assets/iitkgpicon.jpg';
+import mainlogo from  '../Assets/mainlogo.png'
 
 const Navbar = () => {
   return (
