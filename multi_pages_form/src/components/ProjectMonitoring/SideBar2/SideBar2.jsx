@@ -3,7 +3,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import dashboard from "../../../Assets/projectdashboard.png";
 import fundetails from "../../../Assets/fundetails.png";
-import billp from "../../../Assets/Assets/billproc.png";
+import billp from "../../../Assets/billproc.png";
 import manp from "../../../Assets/manpower.png";
 import fundu from "../../../Assets/fundutil.png";
 import logb from "../../../Assets/logbook.png";
