@@ -1,4 +1,5 @@
 import dotenv from 'dotenv';
+// import 'dotenv/config'; // For ES6 modules
 import connectDB from './src/db/index.js';
 import { app } from './src/app.js';
 
