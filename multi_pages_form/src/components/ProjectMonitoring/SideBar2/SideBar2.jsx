@@ -1,5 +1,5 @@
 import React from "react";
-import "./sideBar2.css";
+import "./sidebar2.css";
 import { useNavigate } from "react-router-dom";
 import dashboard from "../../../Assets/projectdashboard.png";
 import fundetails from "../../../Assets/fundetails.png";
