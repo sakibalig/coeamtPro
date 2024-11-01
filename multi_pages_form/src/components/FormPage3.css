@@ -1,0 +1,36 @@
+/* src/components/FormPage3.css */
+
+.form-page3 {
+    margin-left: 220px;
+    padding: 20px;
+    margin-top: 80px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .form-page3 h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .form-page3 form div {
+    margin-bottom: 15px;
+  }
+  
+  .form-page3 label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-page3 input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-page3 .form-navigation {
+    display: flex;
+    justify-content: space-between;
+  }
+  

@@ -1,0 +1,37 @@
+.navbar {
+  background-color: #3490dc;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar-content {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-title {
+  font-size: 2.5rem; /* Size for "iPm" */
+  font-weight: bold;
+  margin: 0;
+  margin-right: 0.5rem; /* Space between "iPm" and subtitle */
+  transform: translateX(-0.5rem); /* Shift "iPm" to the left */
+}
+
+.navbar-subtitle {
+  font-size: 1.2rem; /* Adjust size for subtitle if needed */
+  font-style: italic; /* Italicize subtitle */
+  margin: 0;
+}
+
+.image-content img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+  border-radius:0%; /* Optional: makes the image round */
+}

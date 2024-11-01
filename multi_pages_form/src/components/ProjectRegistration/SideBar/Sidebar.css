@@ -1,0 +1,32 @@
+.sidebar {
+  width: 200px;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+.sidebar-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.sidebar-list {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-item {
+  padding: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  border-left: 5px solid transparent;
+}
+
+.sidebar-item:hover {
+  background-color: #e0e0e0;
+}
+
+.sidebar-item.active {
+  background-color: #ddd; /* Optional, to highlight the current page */
+}

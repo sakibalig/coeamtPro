@@ -1,0 +1,116 @@
+/* Wrapper for the Budget Allocation */
+.budget-allocation-container {
+    padding: 20px;
+    background-color: #f2f4f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 1000px;
+    overflow-x: auto;
+  }
+  
+  /* Table container with vertical scrolling */
+  .table-responsive {
+    overflow-x: auto;
+    max-height: 400px; /* Adjust this value as needed */
+    overflow-y: scroll; /* Add vertical scroll when height exceeds limit */
+    scrollbar-width: thin; /* Firefox scrollbar */
+  }
+  
+  .table-responsive::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .table-responsive::-webkit-scrollbar-thumb {
+    background-color: #4a90e2;
+    border-radius: 10px;
+  }
+  
+  /* Table Styles */
+  .budget-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .budget-table thead {
+    background-color: #4a90e2;
+    color: white;
+  }
+  
+  .budget-table th,
+  .budget-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .budget-table th {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .budget-table td input {
+    width: 100%;
+    padding: 6px;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .budget-table td {
+    background-color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  /* Alternating row colors */
+  .budget-table tbody tr:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+  
+  /* Highlight row on hover */
+  .budget-table tbody tr:hover {
+    background-color: #e6f3ff;
+  }
+  
+  /* Total row style */
+  .total-row {
+    font-weight: bold;
+    background-color: #e6f3ff;
+  }
+  
+  .grand-total {
+    text-align: right;
+    font-weight: bold;
+  }
+  
+  .grand-total-amount {
+    font-weight: bold;
+    color: #4a90e2;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .budget-allocation-container {
+      padding: 15px;
+    }
+  
+    .budget-table {
+      font-size: 14px;
+    }
+  
+    .budget-table th,
+    .budget-table td {
+      padding: 8px;
+    }
+  
+    .budget-table td input {
+      padding: 4px;
+      font-size: 12px;
+    }
+  }
+  

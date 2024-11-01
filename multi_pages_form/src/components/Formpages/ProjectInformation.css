@@ -1,0 +1,41 @@
+.project-information {
+    margin: 20px;
+
+  }
+  
+  .project-information__title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .project-information__row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .project-information__group {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .project-information__label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .project-information__input,
+  .project-information__select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 50px; /* Add vertical spacing between inputs */
+  }
+  
+  .project-information__error {
+    color: #dc3545;
+    font-size: 12px;
+  }
+  

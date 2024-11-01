@@ -1,0 +1,109 @@
+/* Wrapper for header and select dropdown */
+.header-select-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; /* Adds spacing below */
+}
+
+/* Ensure heading and dropdown are spaced consistently */
+.header-select-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-select-container h1 {
+    margin: 0; /* Removes default margin from the h1 */
+    margin-right: 20px; /* Adds space between heading and select dropdown */
+}
+
+.header-select-container label {
+    margin-right: 10px; /* Adds spacing between the label and the select dropdown */
+}
+
+#project-select {
+    padding: 8px;
+    font-size: 16px;
+}
+
+/* Container for the fund details */
+.fund-details-container {
+    padding: 20px;
+    background-color: #f2f4f7;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow-x: auto;
+    max-width: 100%;
+    height: 50vh;
+}
+.Rajaji{
+     margin-left: 60px;
+}
+
+/* Fund details table styles */
+.fund-details-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    min-width: 850px;
+}
+
+.fund-details-table thead {
+    background-color: #4a90e2;
+    color: white;
+}
+
+.fund-details-table th,
+.fund-details-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.fund-details-table td {
+    background-color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    color: #333;
+}
+
+.fund-details-table tbody tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+.fund-details-table tbody tr:hover {
+    background-color: #e6f3ff;
+}
+
+.total-row {
+    font-weight: bold;
+    background-color: #e6f3ff;
+}
+
+.grand-total {
+    text-align: right;
+    font-weight: bold;
+}
+
+.grand-total-amount {
+    font-weight: bold;
+    color: #4a90e2;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .header-select-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header-select-container {
+        margin-bottom: 10px; /* Adds spacing between elements on small screens */
+    }
+
+    #project-select {
+        margin-top: 10px;
+    }
+}

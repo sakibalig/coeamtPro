@@ -1,0 +1,55 @@
+/* Wrapper for the entire page layout */
+.main-box {
+    display: flex;
+    /* height: 100vh; */
+  }
+  
+  /* Content area that will dynamically display the current form */
+  .main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding: 20px;
+  }
+  
+  /* Buttons for navigating between form pages */
+  .navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  /* Shared button styles */
+  .button {
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Previous button styling */
+  .button-prev {
+    background-color: #f0f0f0;
+    color: #000;
+  }
+  
+  /* Next button styling */
+  .button-next {
+    background-color: #007bff;
+  }
+  
+  /* Submit button styling */
+  .button-submit {
+    background-color: #28a745;
+  }
+  
+  /* Disabled button state */
+  .button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

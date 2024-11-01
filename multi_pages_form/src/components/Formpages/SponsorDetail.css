@@ -1,0 +1,41 @@
+.sponsor-detail {
+    margin: 20px;
+}
+
+.sponsor-detail__title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.sponsor-detail__row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px; /* Increase the gap to add more horizontal distance between input fields */
+}
+
+.sponsor-detail__group {
+    flex: 1 1 calc(50% - 30px); /* Adjust to match the gap */
+    min-width: 220px;
+    margin-bottom: 20px; /* Add spacing between groups vertically */
+}
+
+.sponsor-detail__label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.sponsor-detail__input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+}
+
+.sponsor-detail__error {
+    color: #dc3545;
+    font-size: 12px;
+    margin-top: 5px;
+}

@@ -1,0 +1,149 @@
+/* User Register Container */
+.register-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    padding: 20px; /* Add padding to avoid edge collisions on mobile */
+}
+.user-register-container {
+    width: 100%; /* Make container responsive */
+    max-width: 400px; /* Set maximum width */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Padding for spacing */
+    background-color:#dfe3e8; /* Light background color */
+    color: #007bff;
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  /* Header for user registration */
+  .user-register-header {
+    text-align: center; /* Center header text */
+    margin-bottom: 20px; /* Spacing below header */
+  }
+  
+  /* Title styles */
+  .user-register-title {
+    font-family: 'Exo', sans-serif; /* Custom font */
+    font-weight: bold; /* Bold font */
+    font-size: 2rem; /* Responsive font size */
+    color:#007bff; /* Dark color for title */
+  }
+  
+  /* Subtitle styles */
+  .user-register-subtitle {
+    font-size: 1.2rem; /* Responsive font size */
+    font-weight: bold; /* Bold font */
+    color: #666; /* Lighter color for subtitle */
+  }
+  
+  /* Flexbox for form layout */
+  .user-register-form {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Column layout */
+    gap: 1rem; /* Spacing between form elements */
+  }
+  
+  /* Label styles */
+  .user-register-label {
+    font-size: 1rem; /* Responsive font size */
+    font-weight: bold; /* Bold font */
+    margin-bottom: 5px; /* Spacing below label */
+  }
+  
+  /* Input field styles */
+  .user-register-input {
+    width: 95%; /* Full width input */
+    padding: 0.75rem; /* Increased padding */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1rem; /* Responsive font size */
+  }
+  
+  /* Error message styles */
+  .user-register-input-message {
+    font-size: 0.85rem; /* Responsive font size */
+    color: red; /* Red color for error messages */
+  }
+  
+  /* Margin for error/success messages */
+  .user-register-error,
+  .user-register-success {
+    margin-top: 10px; /* Spacing above messages */
+  }
+  
+  /* Button styles */
+  .user-register-button {
+    width: 100%; /* Full width button */
+    padding: 0.75rem; /* Increased padding */
+    background-color: #007bff; /* Black background */
+    color: #fff; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    font-size: 1rem; /* Responsive font size */
+  }
+  
+  /* Login link styles */
+  .user-register-login {
+    color :black;
+    text-align: center; /* Center text */
+    margin-top: 1rem; /* Spacing above */
+  }
+  
+  /* Link styles */
+  .user-register-login-link {
+    text-decoration: underline; /* Underline link */
+    color: #007bff; /* Blue color */
+    cursor: pointer; /* Pointer on hover */
+  }
+  
+  /* Hover effect for link */
+  .user-register-login-link:hover {
+    color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Media queries for responsiveness */
+  
+  /* Tablet adjustments */
+  @media (max-width: 768px) {
+    .user-register-container {
+      padding: 15px; /* Padding for smaller screens */
+    }
+  
+    .user-register-title {
+      font-size: 1.75rem; /* Slightly smaller title */
+    }
+  
+    .user-register-subtitle {
+      font-size: 1rem; /* Slightly smaller subtitle */
+    }
+  }
+  
+  /* Mobile adjustments */
+  @media (max-width: 480px) {
+    .user-register-container {
+      padding: 10px; /* Less padding for mobile */
+    }
+  
+    .user-register-title {
+      font-size: 1.5rem; /* Smaller title for mobile */
+    }
+  
+    .user-register-subtitle {
+      font-size: 0.9rem; /* Smaller subtitle for mobile */
+    }
+  
+    .user-register-input {
+      font-size: 0.9rem; /* Smaller font for inputs */
+      padding: 0.6rem; /* Less padding for inputs */
+    }
+  
+    .user-register-button {
+      font-size: 0.9rem; /* Smaller button font */
+      padding: 0.6rem; /* Less padding for button */
+      background-color: #007bff;
+    }
+  }
+  

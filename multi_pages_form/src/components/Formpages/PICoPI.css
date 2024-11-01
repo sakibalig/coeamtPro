@@ -1,0 +1,73 @@
+.pico-pi {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pico-pi__title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #343a40;
+  font-weight: 600;
+  text-align: center;
+}
+
+.pico-pi__row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.pico-pi__group {
+  flex: 0 1 48%; /* Makes two inputs appear per line and equal in size */
+}
+
+.pico-pi__label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #495057;
+  font-size: 16px;
+}
+
+.pico-pi__input,
+.pico-pi__select {
+  width: 80%;
+  padding: 8px 10px; /* Standard padding for inputs */
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+.pico-pi__input:focus,
+.pico-pi__select:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+.pico-pi__error {
+  color: #e74c3c;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.pico-pi__add-button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #001529;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  width: 20%; /* Button size reduced */
+}
+
+.pico-pi__add-button:hover {
+  background-color: #004080;
+}

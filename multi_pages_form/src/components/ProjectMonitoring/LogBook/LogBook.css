@@ -1,0 +1,82 @@
+/* Container for the logbook */
+.logbook-container {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #f2f4f7;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow-x: auto;
+    max-width: 100%;
+    height: 50vh;
+}
+
+.logbook-container h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Logbook table styles */
+.logbook-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    min-width: 850px;
+}
+
+.logbook-table thead {
+    background-color: #4a90e2;
+    color: white;
+}
+
+.logbook-table th,
+.logbook-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.logbook-table th {
+    background-color: #4a90e2;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.logbook-table td {
+    background-color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    color: #333;
+}
+
+.logbook-table tbody tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+.logbook-table tbody tr:hover {
+    background-color: #e6f3ff;
+}
+
+/* Responsive table wrapper */
+.table-responsive {
+    overflow-x: auto;
+}
+
+@media (max-width: 768px) {
+    .logbook-container {
+        padding: 15px;
+    }
+
+    .logbook-table th,
+    .logbook-table td {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .logbook-table {
+        min-width: 650px;
+    }
+}
