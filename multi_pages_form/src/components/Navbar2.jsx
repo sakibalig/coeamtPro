@@ -61,6 +61,14 @@ const Navbar2 = () => {
               alt="logout image"
               style={{ width: "30px", height: "auto" }}
             />
+          Usdfser/Admin
+        </button>
+        <button className="navbar2-button" onClick={goToAdmin}>
+           <img
+              src={add}
+              alt="logout image"
+              style={{ width: "30px", height: "auto" }}
+            />
           User/Admin
         </button>
       </div>
