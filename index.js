@@ -1,9 +1,9 @@
 import dotenv from 'dotenv';
+dotenv.config();
 // import 'dotenv/config'; // For ES6 modules
 import connectDB from './src/db/index.js';
 import { app } from './src/app.js';
 
-dotenv.config({ path: './.env' });
 
 connectDB()
   .then(() => {
