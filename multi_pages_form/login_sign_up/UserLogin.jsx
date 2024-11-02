@@ -33,7 +33,7 @@ const UserLogin = () => {
       setSuccessMsg("");
 
       // Send POST request to the backend login API
-      const response = await axios.post("http://localhost:8000/api/v1/user/login", data, {
+      const response = await axios.post("https://ipmproject.onrender.com/api/v1/user/login", data, {
         withCredentials: true, // Important for sending cookies
       });
 

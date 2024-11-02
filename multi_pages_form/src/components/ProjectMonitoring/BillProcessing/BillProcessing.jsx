@@ -15,7 +15,7 @@ const BillProcessing = () => {
   useEffect(() => {
     const fetchProjects = async () => {
       try {
-        const response = await axios.get('http://localhost:8000/api/v1/user/getAllProjects');
+        const response = await axios.get('https://ipmproject.onrender.com/api/v1/user/getAllProjects');
         setProjects(response.data.data);
         console.log(response.data.data)
       } catch (error) {
@@ -46,7 +46,7 @@ const BillProcessing = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:8000/api/v1/user/addUseFund",
+        "https://ipmproject.onrender.com/api/v1/user/addUseFund",
         formData,
         { headers: { "Content-Type": "multipart/form-data" } }
       );

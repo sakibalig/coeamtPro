@@ -12,7 +12,7 @@ const ManpowerDetails = () => {
   useEffect(() => {
     const fetchProjects = async () => {
       try {
-        const response = await axios.get('http://localhost:8000/api/v1/user/getAllProjects');
+        const response = await axios.get('https://ipmproject.onrender.com/api/v1/user/getAllProjects');
         setProjects(response.data.data);
       } catch (error) {
         console.error('Error fetching projects:', error);
@@ -27,7 +27,7 @@ const ManpowerDetails = () => {
     setLoading(true);
     setError(null);
     try {
-      const response = await axios.get(`http://localhost:8000/api/v1/user/getManpower/${projectId}`);
+      const response = await axios.get(`https://ipmproject.onrender.com/api/v1/user/getManpower/${projectId}`);
       setManpowerDetails(response.data.data);
     } catch (error) {
       console.error('Error fetching manpower details:', error);

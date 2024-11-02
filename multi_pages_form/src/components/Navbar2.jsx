@@ -18,7 +18,7 @@ const Navbar2 = () => {
 
   const handleLogout = async () => {
     try {
-      const response = await axios.post("http://localhost:8000/api/v1/user/logout");
+      const response = await axios.post("https://ipmproject.onrender.com/api/v1/user/logout");
       console.log(response);
       if (response.status === 204) {
         logout();

@@ -36,7 +36,7 @@ const UserRegister = () => {
      
 
       // Send the form data to the backend for registration
-      const response = await axios.post("http://localhost:8000/api/v1/user/registerUser", {
+      const response = await axios.post("https://ipmproject.onrender.com/api/v1/user/registerUser", {
         FirstName: data.firstName,
         LastName: data.lastName,
         email: data.email,

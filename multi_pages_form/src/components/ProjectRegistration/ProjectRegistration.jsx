@@ -105,7 +105,7 @@ const ProjectRegistration = () => {
         console.log(`${pair[0]}: ${pair[1]}`);
       }
 
-      const response = await axios.post('http://localhost:8000/api/v1/user/registerProject', formData, {
+      const response = await axios.post('https://ipmproject.onrender.com/api/v1/user/registerProject', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
