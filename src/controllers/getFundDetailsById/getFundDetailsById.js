@@ -1,6 +1,5 @@
-import { Project } from "/Users/sakibkhan/Desktop/projects/Backend/src/models/project.model.js";
 import { ApiError } from "../../utils/ApiError.js";
-// import { ApiResponse } from "../utils/ApiResponse.js";
+import { Project } from "../../models/project.model.js";
 import { ApiResponse } from "../../utils/ApiResponse.js";
 
 const fundDetail = async (req, res) => {
