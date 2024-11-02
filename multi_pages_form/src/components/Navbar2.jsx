@@ -61,7 +61,7 @@ const Navbar2 = () => {
               alt="logout image"
               style={{ width: "30px", height: "auto" }}
             />
-          Usdfser/Admin
+          User
         </button>
         <button className="navbar2-button" onClick={goToAdmin}>
            <img
@@ -69,7 +69,7 @@ const Navbar2 = () => {
               alt="logout image"
               style={{ width: "30px", height: "auto" }}
             />
-          User/Admin
+          Admin
         </button>
       </div>
       <div className="navbar2-right">
